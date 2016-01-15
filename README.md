@@ -24,7 +24,7 @@ The CLI securely caches answers in the npm config/os keychain (if available) so 
 ```bash
 > ? npm registry (https://registry.npmjs.org/) # prefilled
 > ? npm username? (boennemann) # prefilled
-> ? npm email stephan@boennemann.me # prefilled
+> ? npm email (stephan@boennemann.me) # prefilled
 > # no more password required, use -f if you changed it
 > another-token
 ```

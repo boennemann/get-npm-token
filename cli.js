@@ -37,7 +37,7 @@ npmconf.load(function (err, conf) {
   }, {
     type: 'input',
     name: 'username',
-    message: 'npm username?',
+    message: 'npm username',
     default: conf.get('username'),
     validate: ary(bind(validator.isLength, null, _, 1), 1)
   }, {
