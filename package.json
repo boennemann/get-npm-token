@@ -1,32 +1,11 @@
 {
   "name": "get-npm-token",
   "description": "exchange npm credentials for an api token",
-  "main": "index.js",
-  "scripts": {
-    "test": "standard",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/boennemann/get-npm-token.git"
-  },
-  "keywords": [
-    "npm",
-    "auth",
-    "token",
-    "user",
-    "email",
-    "password"
-  ],
+  "version": "0.0.0-placeholder",
   "author": "Stephan Bönnemann <stephan@boennemann.me>",
-  "license": "MIT",
+  "bin": "cli.js",
   "bugs": {
     "url": "https://github.com/boennemann/get-npm-token/issues"
-  },
-  "homepage": "https://github.com/boennemann/get-npm-token#readme",
-  "devDependencies": {
-    "standard": "^5.4.1",
-    "semantic-release": "^4.3.5"
   },
   "dependencies": {
     "inquirer": "^0.11.2",
@@ -37,7 +16,30 @@
     "npmlog": "^2.0.0",
     "validator": "^4.5.0"
   },
+  "devDependencies": {
+    "semantic-release": "^4.3.5",
+    "standard": "^5.4.1"
+  },
+  "homepage": "https://github.com/boennemann/get-npm-token#readme",
+  "keywords": [
+    "auth",
+    "email",
+    "npm",
+    "password",
+    "token",
+    "user"
+  ],
+  "license": "MIT",
+  "main": "index.js",
   "optionalDependencies": {
     "keytar": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boennemann/get-npm-token.git"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "standard"
   }
 }
