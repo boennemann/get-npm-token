@@ -41,12 +41,6 @@ npmconf.load(function (err, conf) {
     default: conf.get('username'),
     validate: ary(bind(validator.isLength, null, _, 1), 1)
   }, {
-    type: 'input',
-    name: 'email',
-    message: 'npm email',
-    default: conf.get('email'),
-    validate: validator.isEmail
-  }, {
     type: 'password',
     name: 'password',
     message: 'npm password',
@@ -59,7 +53,7 @@ npmconf.load(function (err, conf) {
       return !password
     }
   }], function (answers) {
-    getToken(answers.registry, answers.username, answers.email, answers.password || password, function (err, token) {
+    getToken(answers.registry, answers.username, answers.password || password, function (err, token) {
       if (err) {
         console.error(err)
         process.exit(1)
@@ -68,7 +62,6 @@ npmconf.load(function (err, conf) {
       console.log(token)
       if (keytar && !password && answers.password) keytar.addPassword('npm-get-token', answers.username, answers.password)
       conf.set('username', answers.username, 'user')
-      conf.set('email', answers.email, 'user')
       conf.save('user')
     })
   })
