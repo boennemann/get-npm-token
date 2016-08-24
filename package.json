@@ -14,7 +14,7 @@
     "npm-registry-client": "^7.0.9",
     "npmconf": "^2.1.2",
     "npmlog": "^2.0.0",
-    "validator": "^4.5.0"
+    "validator": "^5.1.0"
   },
   "devDependencies": {
     "semantic-release": "^4.3.5",
