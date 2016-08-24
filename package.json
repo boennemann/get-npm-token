@@ -13,7 +13,7 @@
     "lodash.bind": "^4.0.0",
     "npm-registry-client": "^7.0.9",
     "npmconf": "^2.1.2",
-    "npmlog": "^2.0.0",
+    "npmlog": "^3.1.2",
     "validator": "^4.5.0"
   },
   "devDependencies": {
