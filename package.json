@@ -8,13 +8,13 @@
     "url": "https://github.com/boennemann/get-npm-token/issues"
   },
   "dependencies": {
-    "inquirer": "^0.12.0",
+    "inquirer": "^1.2.2",
     "lodash.ary": "^4.0.0",
     "lodash.bind": "^4.0.0",
     "npm-registry-client": "^7.0.9",
     "npmconf": "^2.1.2",
-    "npmlog": "^2.0.0",
-    "validator": "^4.5.0"
+    "npmlog": "^4.0.0",
+    "validator": "^6.1.0"
   },
   "devDependencies": {
     "semantic-release": "^4.3.5",
