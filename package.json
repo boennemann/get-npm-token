@@ -17,7 +17,7 @@
     "validator": "^6.1.0"
   },
   "devDependencies": {
-    "semantic-release": "^4.3.5",
+    "semantic-release": "^6.3.2",
     "standard": "^8.0.0"
   },
   "homepage": "https://github.com/boennemann/get-npm-token#readme",
