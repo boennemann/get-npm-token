@@ -1,5 +1,7 @@
 # get-npm-token
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boennemann/get-npm-token.svg)](https://greenkeeper.io/)
+
 > username, email and password in – token out.
 
 ```js
