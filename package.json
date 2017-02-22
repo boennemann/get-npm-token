@@ -8,7 +8,7 @@
     "url": "https://github.com/boennemann/get-npm-token/issues"
   },
   "dependencies": {
-    "inquirer": "^1.2.2",
+    "inquirer": "^3.0.2",
     "lodash.ary": "^4.0.0",
     "lodash.bind": "^4.0.0",
     "npm-registry-client": "^7.0.9",
